@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 public class Addition {
 	private static final Logger LOGGER=Logger.getLogger(Addition.class);
-	public static int add(int a, int b)
+		public static int add(int a, int b)
 	{
 		LOGGER.info("addition of two integer number"+a + "+" +b);
 		return a+b;
